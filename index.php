@@ -43,10 +43,13 @@
     <header class="s-header">
 
         <div class="header">
-            <h3 style="color: white; left: 50px; position: absolute;"><i class="fa fa-globe-americas"></i></h3>
+            <h3 style="color: white; left: 70px; position: absolute;"><img src="images/disk.png" width="10%"></h3>
             <a href="index.php">
-                <h3 style="color: white; left: 80px; position: absolute;">Hello World</h3>
+                <h3 style="color: white; left: 125px; top:15px; position: absolute;">Welcome to The Grid</h3>
             </a>
+            <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)"> 
+            <source src="/sounds/tron_grid.mp3" type="audio/mpeg">
+            </audio> 
         </div>
 
         <nav class="header-nav">
@@ -105,8 +108,8 @@
                 <img src="images/me.png" width="50%" style="display: inline-block">
                 <h3 style="display:inline-block; position: absolute; padding-left: 6px;">Who am i?</h3>
                 <h2 style="display: inline-block; position: absolute; padding-left: 10px;">
-                  Héctor Alonso Salinas García (born June 21th, 1996). I'm a 5 years' experience developer with many different skills who likes clean code and loves web design.<br><br><br>
-                  <i class="fa fa-arrow-left"> Yup, that's me</i>
+                  Héctor Alonso Salinas García<br><br><br>
+                  <i class="fa fa-arrow-left">Full Stack Developer</i>
                 </h2>
 
                 <div class="home-content__buttons" style="position: relative">
