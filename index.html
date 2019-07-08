@@ -42,16 +42,6 @@
     ================================================== -->
     <header class="s-header">
 
-        <div class="header">
-            <h3 style="color: white; left: 70px; position: absolute;"><img src="images/disk.png" width="10%"></h3>
-            <a href="index.html">
-                <h3 style="color: white; left: 125px; top:15px; position: absolute;">Welcome to The Grid</h3>
-            </a>
-            <audio onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)">
-            <source src="./sounds/tron_grid.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-
         <nav class="header-nav">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
@@ -61,11 +51,10 @@
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">My Job</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About me</a></li>
                     <li><a class="smoothscroll"  href="#knowledges" title="services">Knowledges</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">My work</a></li>
                     <li><a class="smoothscroll"  href="#clients" title="clients">Projects</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
 
                 <ul class="header-nav__social">
@@ -103,19 +92,17 @@
         <div class="shadow-overlay"></div>
 
         <div class="home-content">
+            <div class="row home-content__main">
+                <p class="main-name col-xs-12">
+                  Héctor A. Salinas García<br>
+                  Full Stack Developer
+                </p>
+                <img src="images/me.png" width="50%" style="display: inline-block">
+            </div>
 
             <div class="row home-content__main">
-                <img src="images/me.png" width="50%" style="display: inline-block">
-                <h3 style="display:inline-block; position: absolute; padding-left: 6px;">Who am i?</h3>
-                <h2 style="display: inline-block; position: absolute; padding-left: 10px;">
-                  Héctor Alonso Salinas García<br>
-                  -Full Stack Developer-
-                </h2>
 
                 <div class="home-content__buttons" style="position: relative">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Contact me
-                    </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
                         More about me
                     </a>
@@ -159,14 +146,13 @@
         <div id="particles-js"></div>
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">AS DEVELOPER</h3>
-                <h1 class="display-1 display-1--light">What i do?</h1>
+                <h1 class="display-1 display-1--light"><i class="fab fa-github" aria-hidden="true"></i> @hsduiii</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row about-desc" data-aos="fade-up" style="z-index: 2;">
             <div class="col-full">
-                <p style="font-weight: bold;">I can do it! From building simple static web pages to the creation of dinamic multifunctional web apps. <br>Nowadays i'm a PHP Backend trainee, i work developing web apps and testing them, i'm also working on a personal project focused on handling clients and datings.</p>
+                <p style="font-weight: bold; color: white">Im a PHP/JavaScript developer mainly focused on web applications and web pages. <br>Nowadays i work as a Full Stack Developer. Also im working on a personal project made with Laravel and Vue.</p>
             </div>
         </div> <!-- end about-desc -->
 
@@ -177,16 +163,16 @@
                 <h5>Certificates</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">726</div>
+                <div class="stats__count">117</div>
                 <h5>Cups of Coffee</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">2</div>
-                <h5>Personal Projects</h5>
+                <div class="stats__count">5</div>
+                <h5>Projects</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">10</div>
-                <h5>Books Read</h5>
+                <div class="stats__count">4</div>
+                <h5>Year's Experience</h5>
             </div>
 
         </div> <!-- end about-stats -->
@@ -200,11 +186,10 @@
       <img src="images/emoji_hi.png" alt="Hello There" width="25%" style="position: absolute; top: -60px; left: 0px;">
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">What i know?</h3>
-                <h1 class="display-2">These are some of the technologies im familiar with.</h1>
+                <h1 class="subhead">KNOWLEDGES</h1>
             </div>
         </div> <!-- end section-header -->
-
+        <br>
         <div class="row services-list block-1-2 block-tab-full">
 
             <div class="col-block service-item" data-aos="fade-up">
@@ -225,6 +210,28 @@
                 <div class="service-text">
                     <br><br>
                     <p>(pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fab fa-ember"> Ember</i>
+                </div>
+                <div class="service-text">
+                    <br><br>
+                    <p>is an open-source JavaScript web framework, based on the Model–view–viewmodel (MVVM) pattern. It allows developers to create scalable single-page web applications by incorporating common idioms and best practices into the framework.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fab fa-stripe-s">lim</i>
+                </div>
+                <div class="service-text">
+                    <br><br>
+                    <p>is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.
                     </p>
                 </div>
             </div>
@@ -264,11 +271,22 @@
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
-                  <i class="far fa-file-code"> SQL</i>
+                  <i class="far fa-file-code"> MySQL</i>
                 </div>
                 <div class="service-text">
                     <br><br>
-                    <p>is a standardized programming language that's used to manage relational databases and perform various operations on the data in them.
+                    <p>is an open-source relational database management system (RDBMS).
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                  <i class="fab fa-docker"> Docker</i>
+                </div>
+                <div class="service-text">
+                    <br><br>
+                    <p>is a set of coupled software-as-a-service and platform-as-a-service products that use operating-system-level virtualization to develop and deliver software in packages called containers.
                     </p>
                 </div>
             </div>
@@ -290,6 +308,24 @@
                     </p>
                 </div>
             </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="fab fa-tumblr">ypescript</i></div>
+                <div class="service-text">
+                    <br><br>
+                    <p>is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="fab fa-sass"> SASS</i></div>
+                <div class="service-text">
+                    <br><br>
+                    <p>is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS).
+                    </p>
+                </div>
+            </div>s
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="fab fa-html5"> HTML5</i></div>
@@ -321,7 +357,6 @@
 
             <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
                 <div class="col-full">
-                    <h3 class="subhead">My Work</h3>
                     <h1 class="display-2 display-2--light">CLIENTIFY</h1>
                     <h5 class="subhead">Business smart Agenda made with Laravel & Vuejs</h5>
                 </div>
@@ -383,6 +418,7 @@
                     <a href="#terramak" title="" class="clients__slide"><img src="images/projects/terramak.png" /></a>
                     <a href="#seccione" title="" class="clients__slide"><img src="images/projects/seccione.png" /></a>
                     <a href="#enrazsados" title="" class="clients__slide"><img src="images/projects/enrazsados.png" /></a>
+                    <a href="#omi" title="" class="clients__slide"><img src="images/projects/omi.png" /></a>
 
 
                 </div> <!-- end clients -->
@@ -412,121 +448,18 @@
 
                     </div>
 
+                    <div id="omi" class="testimonials__slide">
+
+                        <p>OMI: Medical Application <br>Medical Digital Organizer</p>
+
+                    </div>
+
                 </div><!-- end testimonials -->
 
             </div> <!-- end col-full -->
         </div> <!-- end client-testimonials -->
 
     </section> <!-- end s-clients -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contact Me</h3>
-                <h1 class="display-2 display-2--light">I'm available at any time!</h1>
-            </div>
-        </div>
-
-        <div class="row contact-content" data-aos="fade-up">
-
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Me A Message</h3>
-
-                <form name="contactForm" class="contact-form" action="contactform.php" method="post">
-                    <div class="form-field">
-                        <input name="contactName" type="text" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                    <button type="submit" name="submit" class="full-width btn--primary">SEND MAIL</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div> <!-- end contact-primary -->
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5>Where to Find Me</h5>
-                        <p>
-                            Primera #5300<br>
-                            Nueva Estanzuela, Monterrey<br>
-                            Nuevo Leon MX
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>My Email</h5>
-                        <p>
-                            hector_sag@outlook.com
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Call Me</h5>
-                        <p>
-                            Mobile: 8120402661
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                      <li>
-                          <a href="https://www.facebook.com/hsduiii"><i class="fab fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://www.instagram.com/hec7orsg/"><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://www.linkedin.com/in/h%C3%A9ctorsalinas/"><i class="fab fa-linkedin"></i></a>
-                      </li>
-                      <li>
-                          <a href="https://github.com/hsduiii"><i class="fab fa-github"></i></a>
-                      </li>
-                    </ul> <!-- end contact-social -->
-
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
 
 
     <!-- footer

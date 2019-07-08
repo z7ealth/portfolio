@@ -3553,5 +3553,23 @@ footer .row {
     z-index: 1;
 }
 
+.home-content__main {
+  padding-top: 65px !important;
+}
+
+.col-xs-12 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subhead{
+  font-size: 30px !important;
+}
 
 /*# sourceMappingURL=main.css.map */
