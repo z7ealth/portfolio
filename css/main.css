@@ -3584,6 +3584,13 @@ footer .row {
   left: 0px;
 }
 
+.emoji_hi{
+  position: absolute;
+  top: -130px;
+  right: -30px;
+  width: 20%;
+}
+
 @media (max-width: 1000px) {
   .hello_emoji{
     width: 45% ;
@@ -3598,7 +3605,7 @@ footer .row {
 
   .emoji_hi{
     position: absolute;
-    top: -70px;
+    top: -79px;
     right: -30px;
     width: 40%;
   }
