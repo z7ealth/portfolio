@@ -3605,9 +3605,14 @@ footer .row {
 
   .emoji_hi{
     position: absolute;
-    top: -79px;
+    top: -75px;
     right: -30px;
     width: 40%;
+  }
+
+  .clientify{
+    padding-top: 56.25%;
+    height: auto;
   }
 }
 
